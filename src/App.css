@@ -4,8 +4,7 @@
 
 .App-logo {
     animation: App-logo-spin infinite 1000s linear;
-    height: 800px;
-    width: 800px;
+    height: 80px;
 }
 
 .App-header {
@@ -16,9 +15,9 @@
 }
 
 .App-title {
-    font-size: 100px;
-    text-align: initial;
-    color: #ad4cbc;
+    font-size: 1.5em;
+    color: #57b6ff;
+
 }
 
 .App-intro {
@@ -33,3 +32,4 @@
         transform: rotate(360deg);
     }
 }
+
