@@ -5,9 +5,10 @@ class NavBar extends Component {
     render(){
         return (
             <nav class="navbar navbar-default">
-                <h1 class="navbar-head">Adult Toy</h1>
-                <div className="navbar-header">
+                <div class="container-fluid jumbotron">
+                    <h1 className="navbar-head">Adult Toy</h1>
                     <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        Menu
                         <span className="icon-bar"></span>
                         <span className="icon-bar"></span>
                         <span className="icon-bar"></span>
