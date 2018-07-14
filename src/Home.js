@@ -56,6 +56,47 @@ class Home extends Component {
                         </section>
                     </section>
                 </section>
+                <section class="container-fluid text-center">
+                    <h2>SERVICES</h2>
+                    <h4>What we offer</h4>
+                    <br/>
+                    <section class="row">
+                        <section class="col-sm-4">
+                            <span class="glyphicon glyphicon-off"></span>
+                            <h4>POWER</h4>
+                            <p>Lorem ipsum dolor sit amet...</p>
+                        </section>
+                        <section class="col-sm-4">
+                            <span class="glyphicon glyphicon-heart"></span>
+                            <h4>LOVE</h4>
+                            <p>Lorem ipsum dolor sit amet...</p>
+                        </section>
+                        <section class="col-sm-4">
+                            <span class="glyphicon glyphicon-lock"></span>
+                            <h4>JOB DONE</h4>
+                            <p>Lorem ipsum dolor sit amet...</p>
+                        </section>
+                    </section>
+                    <br/><br/>
+                    <section class="row">
+                        <section class="col-sm-4">
+                            <span class="glyphicon glyphicon-leaf"></span>
+                            <h4>GREEN</h4>
+                            <p>Lorem ipsum dolor sit amet...</p>
+                        </section>
+                        <section class="col-sm-4">
+                            <span class="glyphicon glyphicon-certificate"></span>
+                            <h4>CERTIFICATE</h4>
+                            <p>Lorem ipsum dolor sit amet...</p>
+                        </section>
+                        <section class="col-sm-4">
+                            <section class="glyphicon glyphicon-wrench">
+                                <h4>HARD WORK</h4>
+                                <p>Lorem ipsum dolor sit amet...</p>
+                            </section>
+                        </section>
+                    </section>
+                </section>
             </Fragment>
         );
     }
