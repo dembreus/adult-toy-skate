@@ -1,0 +1,10 @@
+/* Add an orange color to all icons and set the font-size */
+.logo-small {
+    color: #f4511e;
+    font-size: 50px;
+}
+
+.logo {
+    color: #f4511e;
+    font-size: 200px;
+}
