@@ -20,7 +20,7 @@ class Services extends Component {
                             <p>Lorem ipsum dolor sit amet...</p>
                         </section>
                         <section className="col-sm-4">
-                            <span className="glyphicon glyphicon-lock logo-small"></span>
+                            <span className="glyphicon glyphicon-briefcase logo-small"></span>
                             <h4>JOB DONE</h4>
                             <p>Lorem ipsum dolor sit amet...</p>
                         </section>

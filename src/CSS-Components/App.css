@@ -36,13 +36,13 @@
 /*everything above this is from react*/
 
 .jumbotron {
-    background-color: #f4511e;
-    color: #fff;
+    background-color: #38a96d;
+    color: #e4e4e4;
     padding: 100px 25px;
 }
 
 .bg-grey {
-    background-color: #f6f6f6f6;
+    background-color: rgba(228, 228, 228, 0.96);
 }
 
 .container-fluid {

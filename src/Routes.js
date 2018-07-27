@@ -1,7 +1,7 @@
 import React from 'react';
-import './App.css';
-import HomePage from './Home'
-import ProductPage from "./Products"
+import './CSS-Components/App.css';
+import HomePage from './Components/Home'
+import ProductPage from "./Components/Products"
 import {
     BrowserRouter,
     Switch,

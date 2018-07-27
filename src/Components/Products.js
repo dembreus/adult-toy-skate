@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react';
-import './App.css';
+import '../CSS-Components/App.css';
 import NavBar from "./NavBar"
 
 class Products extends Component {

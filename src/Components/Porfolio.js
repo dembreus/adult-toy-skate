@@ -1,4 +1,5 @@
 import React, { Component, Fragment } from 'react';
+import roy from '../Photos/roy-party-shirt.jpg'
 
 class Portfolio extends Component {
     render() {
@@ -13,7 +14,7 @@ class Portfolio extends Component {
                        {/*Image on the left*/}
                        <div class="col-sm-4">
                            <div class="thumbnail">
-                               <img src="./roy-party-shirt.jpg" alt="Roy Boy"/>
+                               <img className="roy-boy" src={roy} alt="Roy Boy"/>
                                <p><strong>Roy Boy</strong></p>
                                <p>This guy knows how to move his feet.</p>
                            </div>
