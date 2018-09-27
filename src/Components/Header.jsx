@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from "react";
-import logo from "../logo.svg";
+import logo from "../images/logo.png";
 
 class Header extends Component {
   render() {
@@ -7,7 +7,10 @@ class Header extends Component {
       <Fragment className="Header">
         <section className="jumbotron text-center">
           <header className="App-header">
-            <img src={logo} className="App-logo" alt="logo" />
+            <a href="/">
+              <img src={logo} className="App-logo" alt="logo" />
+            </a>
+
             <h1 className="App-title">Adult Toy Skate</h1>
             <p className="App-intro">
               A fake skateboarding company that sponsors.

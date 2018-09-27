@@ -1,21 +1,16 @@
 import React, { Component, Fragment } from "react";
 import "../styles/App.css";
 import "../styles/Icons.css";
-import NavBar from "./NavBar";
-import Portfolio from "./Porfolio";
-import Services from "./Services";
-import Values from "./Values";
-import About from "./About";
-import Header from "./Header";
+import Portfolio from "./Porfolio.jsx";
+import Products from "./Products.jsx";
+import Header from "./Header.jsx";
 
 const Home = () => {
   return (
     <Fragment>
       {/*<NavBar/>*/}
       <Header />
-      <About />
-      <Values />
-      <Services />
+      <Products />
       <Portfolio />
     </Fragment>
   );
