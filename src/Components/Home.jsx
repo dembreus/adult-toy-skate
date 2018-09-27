@@ -4,12 +4,13 @@ import "../styles/Icons.css";
 import Portfolio from "./Porfolio.jsx";
 import Products from "./Products.jsx";
 import Header from "./Header.jsx";
+import NavBar from "./NavBar.jsx";
 
 const Home = () => {
   return (
     <Fragment>
-      {/*<NavBar/>*/}
-      <Header />
+      <NavBar />
+      {/* <Header /> */}
       <Products />
       <Portfolio />
     </Fragment>
