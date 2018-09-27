@@ -1,26 +1,24 @@
-import React, {Component, Fragment} from 'react';
-import '../CSS-Components/App.css';
-import '../CSS-Components/Icons.css'
-import NavBar from "./NavBar"
-import Portfolio from './Porfolio'
-import Services from './Services'
-import Values from './Values'
-import About from './About'
-import Header from './Header'
+import React, { Component, Fragment } from "react";
+import "../styles/App.css";
+import "../styles/Icons.css";
+import NavBar from "./NavBar";
+import Portfolio from "./Porfolio";
+import Services from "./Services";
+import Values from "./Values";
+import About from "./About";
+import Header from "./Header";
 
-class Home extends Component {
-    render() {
-        return (
-            <Fragment className="Home">
-                {/*<NavBar/>*/}
-                <Header/>
-                <About/>
-                <Values/>
-                <Services/>
-                <Portfolio/>
-            </Fragment>
-        );
-    }
-}
+const Home = () => {
+  return (
+    <Fragment>
+      {/*<NavBar/>*/}
+      <Header />
+      <About />
+      <Values />
+      <Services />
+      <Portfolio />
+    </Fragment>
+  );
+};
 
 export default Home;
