@@ -4,6 +4,10 @@ import logo from "../images/logo.png";
 import roy from "../images/lee-lee.PNG";
 import oliver from "../images/O-Dubs.PNG";
 import dblaze from "../images/dblaze.PNG";
+import broph from "../images/broph_handplant2.png";
+import oDubs from "../images/O-Dubs2.png";
+import cwb from "../images/wiz_chach_broph2.png";
+import "../styles/carousel.css";
 
 const NavBar = () => {
   return (
@@ -71,7 +75,7 @@ const NavBar = () => {
         </ol>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src={roy} alt="First slide" className="firt-slide" />
+            <img src={broph} alt="First slide" className="firt-slide" />
             <div className="container">
               <div className="carousel-caption text-left">
                 <h1>Example headline.</h1>
@@ -89,23 +93,25 @@ const NavBar = () => {
             </div>
           </div>
           <div className="carousel-item">
-            <img src={oliver} alt="Second slide" className="second-slide" />
+            <img src={oDubs} alt="Second slide" className="second-slide" />
             <div className="container">
-              <h1>Another example headline.</h1>
-              <p>
-                Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-                Donec id elit non mi porta gravida at eget metus. Nullam id
-                dolor id nibh ultricies vehicula ut id elit.
-              </p>
-              <p>
-                <a href="/" role="button" className="btn btn-lg btn-primary">
-                  Learn more
-                </a>
-              </p>
+              <div className="carousel-caption">
+                <h1>Another example headline.</h1>
+                <p>
+                  Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+                  Donec id elit non mi porta gravida at eget metus. Nullam id
+                  dolor id nibh ultricies vehicula ut id elit.
+                </p>
+                <p>
+                  <a href="/" role="button" className="btn btn-lg btn-primary">
+                    Learn more
+                  </a>
+                </p>
+              </div>
             </div>
           </div>
           <div className="carousel-item">
-            <img src={dblaze} alt="third slide" className="third-slide" />
+            <img src={cwb} alt="third slide" className="third-slide" />
             <div className="container">
               <div className="carousel-caption text-right">
                 <h1>One more for good measure.</h1>
@@ -124,7 +130,7 @@ const NavBar = () => {
           </div>
         </div>
         <a
-          href="/"
+          href="#myCarousel"
           className="carousel-control-prev"
           role="button"
           data-slide="prev"
@@ -133,14 +139,14 @@ const NavBar = () => {
           <span className="sr-only">Previous</span>
         </a>
         <a
-          href="/"
+          href="#myCarousel"
           className="carousel-control-next"
           role="button"
           data-slide="next"
         >
           <span className="carousel-control-next-icon" aria-hidden="true" />
-          Next
-          <span className="sr-only" />
+
+          <span className="sr-only">Next</span>
         </a>
       </div>
     </Fragment>
