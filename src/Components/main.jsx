@@ -25,16 +25,11 @@ const main = () => {
 
           {/* <!-- Grid column --> */}
           <div class="col-md-5 mb-4">
-            <h2>Some awesome heading</h2>
+            <h2>About us</h2>
             <hr />
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Blanditiis pariatur quod ipsum atque quam dolorem voluptate
-              officia sunt placeat consectetur alias fugit cum praesentium
-              ratione sint mollitia, perferendis natus quaerat!
-            </p>
+            <p>We steal from the other guys and pass the savings on to you!</p>
             <a href="https://mdbootstrap.com/" class="btn btn-elegant">
-              Get it now!
+              Explore!
             </a>
           </div>
           {/* <!-- Grid column --> */}
@@ -63,14 +58,14 @@ const main = () => {
               {/* <!-- Card content --> */}
               <div class="card-body">
                 {/* <!-- Title --> */}
-                <h4 class="card-title">Card title</h4>
+                <h4 class="card-title">Magazine</h4>
                 {/* <!-- Text --> */}
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  From the biggest gaps to smallest cracks, we capture
+                  everything right here.
                 </p>
                 <a href="#!" class="btn btn-elegant">
-                  Button
+                  View More
                 </a>
               </div>
             </div>
@@ -98,14 +93,14 @@ const main = () => {
               {/* <!-- Card content --> */}
               <div class="card-body">
                 {/* <!-- Title --> */}
-                <h4 class="card-title">Card title</h4>
+                <h4 class="card-title">Product</h4>
                 {/* <!-- Text --> */}
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  High quality boards, shirts and more. We steal from the other
+                  guys and pass the savings onto you.
                 </p>
                 <a href="#" class="btn btn-elegant">
-                  Button
+                  View More
                 </a>
               </div>
             </div>
@@ -133,14 +128,13 @@ const main = () => {
               {/* <!-- Card content --> */}
               <div class="card-body">
                 {/* <!-- Title --> */}
-                <h4 class="card-title">Card title</h4>
+                <h4 class="card-title">Coming Soon!</h4>
                 {/* <!-- Text --> */}
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  More to come from our company. Come explore to find out more.
                 </p>
                 <a href="#" class="btn btn-elegant">
-                  Button
+                  View More
                 </a>
               </div>
             </div>
