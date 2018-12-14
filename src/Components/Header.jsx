@@ -4,36 +4,95 @@ import logo from "../images/logo.png";
 class Header extends Component {
   render() {
     return (
-      <Fragment className="Header">
-        <section className="jumbotron text-center">
-          <header className="App-header">
-            <a href="/">
-              <img src={logo} className="App-logo" alt="logo" />
+      <header>
+        {/* <!-- Navbar --> */}
+        <nav class="navbar navbar-expand-lg navbar-dark elegant-color-dark">
+          {/* <!-- Additional container --> */}
+          <div class="container">
+            {/* <!-- Navbar brand --> */}
+            <a class="navbar-brand" href="#">
+              Adult Toy Skateboards
             </a>
 
-            <h1 className="App-title">Adult Toy Skate</h1>
-            <p className="App-intro">
-              A fake skateboarding company that sponsors.
-            </p>
-            <form className="form-inline">
-              <section className="input-group">
-                <input
-                  type="email"
-                  className="form-control"
-                  size="50"
-                  placeholder="Email Address"
-                  required
-                />
-                <section className="input-group-btn">
-                  <button type="button" className="btn btn-danger">
-                    Subscribe
-                  </button>
-                </section>
-              </section>
-            </form>
-          </header>
-        </section>
-      </Fragment>
+            {/* <!-- Collapse button --> */}
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#basicExampleNav"
+              aria-controls="basicExampleNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon" />
+            </button>
+
+            {/* <!-- Collapsible content --> */}
+            <div class="collapse navbar-collapse" id="basicExampleNav">
+              {/* <!-- Links --> */}
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">
+                    Home <span class="sr-only">(current)</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    Magazine
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    Product
+                  </a>
+                </li>
+
+                {/* <!-- Dropdown --> */}
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    id="navbarDropdownMenuLink"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    More
+                  </a>
+                  <div
+                    class="dropdown-menu dropdown-primary"
+                    aria-labelledby="navbarDropdownMenuLink"
+                  >
+                    <a class="dropdown-item" href="#">
+                      Action
+                    </a>
+                    <a class="dropdown-item" href="#">
+                      Another action
+                    </a>
+                    <a class="dropdown-item" href="#">
+                      Something else here
+                    </a>
+                  </div>
+                </li>
+              </ul>
+              {/* <!-- Links --> */}
+
+              <form class="form-inline">
+                <div class="md-form my-0">
+                  <input
+                    class="form-control mr-sm-2"
+                    type="text"
+                    placeholder="Search"
+                    aria-label="Search"
+                  />
+                </div>
+              </form>
+            </div>
+            {/* <!-- Collapsible content --> */}
+          </div>
+          {/* <!-- Additional container --> */}
+        </nav>
+        {/* <!-- /.Navbar --> */}
+      </header>
     );
   }
 }
