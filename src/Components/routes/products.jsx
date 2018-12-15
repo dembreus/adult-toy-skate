@@ -1,8 +1,6 @@
-import React, { Component, Fragment } from "react";
-import "../styles/App.css";
-import NavBar from "./NavBar.jsx";
+import React, { Fragment } from "react";
 
-const Products = () => {
+const products = () => {
   return (
     <Fragment className="Products">
       <header className="Product-header">
@@ -13,4 +11,4 @@ const Products = () => {
   );
 };
 
-export default Products;
+export default products;

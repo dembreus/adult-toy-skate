@@ -1,7 +1,10 @@
 import React, { Component } from "react";
-import Header from "./Header";
+import { Switch, Route } from "react-router-dom";
+import Header from "./header";
 import Footer from "./footer";
-import Main from "./main";
+import Home from "./routes/home";
+import Magazine from "./routes/magazine";
+import Products from "./routes/products";
 import "../styles/App.css";
 
 class App extends Component {
@@ -12,8 +15,13 @@ class App extends Component {
         <Header />
 
         {/* Main layout */}
-        <Main />
-
+        <main class="mt-5">
+          <Switch>
+            <Route path="products" component={Products} />
+            <Route path="/magazine" component={Magazine} />
+            <Route exact path="/" component={Home} />
+          </Switch>
+        </main>
         {/* Footer */}
         <Footer />
       </div>
