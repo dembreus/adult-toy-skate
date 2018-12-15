@@ -2,23 +2,23 @@ import React from "react";
 
 const card = ({ image, title, text, link, imgAlt }) => {
   return (
-    <div class="card">
+    <div className="card">
       {/* <!-- Card image --> */}
-      <div class="view overlay">
-        <img src={image} class="card-img-top" alt={imgAlt} />
+      <div className="view overlay">
+        <img src={image} className="card-img-top" alt={imgAlt} />
         <a href="#">
           {" "}
-          <div class="mask rgba-white-slight" />{" "}
+          <div className="mask rgba-white-slight" />{" "}
         </a>
       </div>
 
       {/* <!-- Card content --> */}
-      <div class="card-body">
+      <div className="card-body">
         {/* <!-- Title --> */}
-        <h4 class="card-title">{title}</h4>
+        <h4 className="card-title">{title}</h4>
         {/* <!-- Text --> */}
-        <p class="card-text">{text}</p>
-        <a href="#!" class="btn btn-elegant">
+        <p className="card-text">{text}</p>
+        <a href="#!" className="btn btn-elegant">
           View More
         </a>
       </div>

@@ -5,7 +5,7 @@ const dropdown = ({ links }) => {
   return (
     <Fragment>
       <a
-        class="nav-link dropdown-toggle"
+        className="nav-link dropdown-toggle"
         id="navbarDropdownMenuLink"
         data-toggle="dropdown"
         aria-haspopup="true"
@@ -14,16 +14,16 @@ const dropdown = ({ links }) => {
         More
       </a>
       <div
-        class="dropdown-menu dropdown-primary"
+        className="dropdown-menu dropdown-primary"
         aria-labelledby="navbarDropdownMenuLink"
       >
-        <Link class="dropdown-item" to="/">
+        <Link className="dropdown-item" to="/">
           Action
         </Link>
-        <Link class="dropdown-item" to="/">
+        <Link className="dropdown-item" to="/">
           Another action
         </Link>
-        <Link class="dropdown-item" to="/">
+        <Link className="dropdown-item" to="/">
           Something else here
         </Link>
       </div>

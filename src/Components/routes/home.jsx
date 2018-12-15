@@ -4,7 +4,7 @@ import Jumbotron from "../utils/jumbotron";
 
 const home = () => {
   return (
-    <div class="container">
+    <div className="container">
       {/* <!-- Grid row --> */}
       <Jumbotron
         image="https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg"
@@ -14,9 +14,9 @@ const home = () => {
       {/* <!-- Grid row --> */}
 
       {/* <!-- Grid row --> */}
-      <div class="row">
+      <div className="row">
         {/* <!-- Grid column --> */}
-        <div class="col-lg-4 col-md-12 mb-4">
+        <div className="col-lg-4 col-md-12 mb-4">
           {/* <!-- Card --> */}
           <Card
             image="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(72).jpg"
@@ -29,7 +29,7 @@ const home = () => {
         {/* <!-- Grid column --> */}
 
         {/* <!-- Grid column --> */}
-        <div class="col-lg-4 col-md-6">
+        <div className="col-lg-4 col-md-6">
           {/* <!-- Card --> */}
           <Card
             image="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(74).jpg"
@@ -41,7 +41,7 @@ const home = () => {
         {/* <!-- Grid column --> */}
 
         {/* <!-- Grid column --> */}
-        <div class="col-lg-4 col-md-6">
+        <div className="col-lg-4 col-md-6">
           {/* <!-- Card --> */}
           <Card
             image="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(75).jpg"

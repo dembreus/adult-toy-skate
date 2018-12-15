@@ -15,7 +15,7 @@ class App extends Component {
         <Header />
 
         {/* Main layout */}
-        <main class="mt-5">
+        <main className="mt-5">
           <Switch>
             <Route path="products" component={Products} />
             <Route path="/magazine" component={Magazine} />

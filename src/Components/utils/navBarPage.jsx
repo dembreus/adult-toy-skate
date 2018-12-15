@@ -36,9 +36,15 @@ class NavbarPage extends React.Component {
         <NavbarToggler onClick={this.toggleCollapse} />
         <Collapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
           <NavbarNav left>
-            <NavItem active>{/* <NavLink to="#!">Home</NavLink> */}</NavItem>
-            <NavItem>{/* <NavLink to="#!">Features</NavLink> */}</NavItem>
-            <NavItem>{/* <NavLink to="#!">Pricing</NavLink> */}</NavItem>
+            <NavItem active>
+              <NavLink to="#!">Home</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink to="#!">Features</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink to="#!">Pricing</NavLink>
+            </NavItem>
             <NavItem>
               <Dropdown>
                 <DropdownToggle nav caret>
@@ -55,14 +61,14 @@ class NavbarPage extends React.Component {
           </NavbarNav>
           <NavbarNav right>
             <NavItem>
-              {/* <NavLink className="waves-effect waves-light" to="#!"> */}
-              {/* <Fa icon="twitter" />
-              </NavLink> */}
+              <NavLink className="waves-effect waves-light" to="#!">
+                <Fa icon="twitter" />
+              </NavLink>
             </NavItem>
             <NavItem>
-              {/* <NavLink className="waves-effect waves-light" to="#!"> */}
-              {/* <Fa icon="google-plus" />
-              </NavLink> */}
+              <NavLink className="waves-effect waves-light" to="#!">
+                <Fa icon="google-plus" />
+              </NavLink>
             </NavItem>
             <NavItem>
               <Dropdown>

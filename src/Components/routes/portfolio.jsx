@@ -4,18 +4,18 @@ import odubs from "../images/O-Dubs.PNG";
 import dblaze from "../images/dblaze.PNG";
 import "../styles/Portfolio.css";
 
-const Portfolio = () => {
+const portfolio = () => {
   return (
     <Fragment className="skaters">
       {/*Portfolio section*/}
-      <div class="container-fluid text-center bg-grey">
+      <div className="container-fluid text-center bg-grey">
         <h2>Skaters</h2>
         <h4>The best of the best</h4>
         {/*Area for */}
-        <div class="row text-center">
+        <div className="row text-center">
           {/*Image on the left*/}
-          <div class="col-sm-4">
-            <div class="thumbnail">
+          <div className="col-sm-4">
+            <div className="thumbnail">
               <img className="roy-boy" src={roy} alt="Roy Boy" />
               <p>
                 <strong>Roy Boy</strong>
@@ -24,8 +24,8 @@ const Portfolio = () => {
             </div>
           </div>
           {/*Image in the middle*/}
-          <div class="col-sm-4">
-            <div class="thumbnail">
+          <div className="col-sm-4">
+            <div className="thumbnail">
               <img src={odubs} alt="O'Dubs" />
               <p>
                 <strong>O'Dubs</strong>
@@ -34,8 +34,8 @@ const Portfolio = () => {
             </div>
           </div>
           {/*Image on the right*/}
-          <div class="col-sm-4">
-            <div class="thumbnail">
+          <div className="col-sm-4">
+            <div className="thumbnail">
               <img src={dblaze} alt="D Blaze" />
               <p>
                 <strong>D Blaze</strong>
@@ -49,4 +49,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default portfolio;

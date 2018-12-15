@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 
-const Services = () => {
+const services = () => {
   return (
     <Fragment className="Services">
       <section className="container-fluid text-center">
@@ -48,4 +48,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default services;

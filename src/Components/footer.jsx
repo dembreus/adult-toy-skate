@@ -2,15 +2,15 @@ import React from "react";
 
 const footer = () => {
   return (
-    <footer class="page-footer font-small elegant-color-dark pt-4 mt-4">
+    <footer className="page-footer font-small elegant-color-dark pt-4 mt-4">
       {/* <!-- Footer Links --> */}
-      <div class="container text-center text-md-left">
+      <div className="container text-center text-md-left">
         {/* <!-- Grid row --> */}
-        <div class="row">
+        <div className="row">
           {/* <!-- Grid column --> */}
-          <div class="col-md-6 mt-md-0 mt-3">
+          <div className="col-md-6 mt-md-0 mt-3">
             {/* <!-- Content --> */}
-            <h5 class="text-uppercase">Footer Content</h5>
+            <h5 className="text-uppercase">Footer Content</h5>
             <p>
               Here you can use rows and columns here to organize your footer
               content.
@@ -18,14 +18,14 @@ const footer = () => {
           </div>
           {/* <!-- Grid column --> */}
 
-          <hr class="clearfix w-100 d-md-none pb-3" />
+          <hr className="clearfix w-100 d-md-none pb-3" />
 
           {/* <!-- Grid column --> */}
-          <div class="col-md-3 mb-md-0 mb-3">
+          <div className="col-md-3 mb-md-0 mb-3">
             {/* <!-- Links --> */}
-            <h5 class="text-uppercase">Links</h5>
+            <h5 className="text-uppercase">Links</h5>
 
-            <ul class="list-unstyled">
+            <ul className="list-unstyled">
               <li>
                 <a href="#!">Link 1</a>
               </li>
@@ -43,11 +43,11 @@ const footer = () => {
           {/* <!-- Grid column --> */}
 
           {/* <!-- Grid column --> */}
-          <div class="col-md-3 mb-md-0 mb-3">
+          <div className="col-md-3 mb-md-0 mb-3">
             {/* <!-- Links --> */}
-            <h5 class="text-uppercase">Links</h5>
+            <h5 className="text-uppercase">Links</h5>
 
-            <ul class="list-unstyled">
+            <ul className="list-unstyled">
               <li>
                 <a href="#!">Link 1</a>
               </li>
@@ -69,7 +69,7 @@ const footer = () => {
       {/* <!-- Footer Links --> */}
 
       {/* <!-- Copyright --> */}
-      <div class="footer-copyright text-center py-3">
+      <div className="footer-copyright text-center py-3">
         © 2018 Copyright:
         <a href="https://mdbootstrap.com/education/bootstrap/">
           MDBootstrap.com

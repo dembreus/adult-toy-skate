@@ -5,17 +5,17 @@ import { Link } from "react-router-dom";
 
 const navBar = () => {
   return (
-    <nav class="navbar navbar-expand-lg navbar-dark elegant-color-dark">
+    <nav className="navbar navbar-expand-lg navbar-dark elegant-color-dark">
       {/* <!-- Additional container --> */}
-      <div class="container">
+      <div className="container">
         {/* <!-- Navbar brand --> */}
-        <Link class="navbar-brand" to="/">
+        <Link className="navbar-brand" to="/">
           Adult Toy Skateboards
         </Link>
 
         {/* <!-- Collapse button --> */}
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-toggle="collapse"
           data-target="#basicExampleNav"
@@ -23,31 +23,31 @@ const navBar = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon" />
+          <span className="navbar-toggler-icon" />
         </button>
 
         {/* <!-- Collapsible content --> */}
-        <div class="collapse navbar-collapse" id="basicExampleNav">
+        <div className="collapse navbar-collapse" id="basicExampleNav">
           {/* <!-- Links --> */}
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <Link class="nav-link" to="/">
-                Home <span class="sr-only">(current)</span>
+          <ul className="navbar-nav mr-auto">
+            <li className="nav-item active">
+              <Link className="nav-link" to="/">
+                Home <span className="sr-only">(current)</span>
               </Link>
             </li>
-            <li class="nav-item">
-              <Link class="nav-link" to="/magazine">
+            <li className="nav-item">
+              <Link className="nav-link" to="/magazine">
                 Magazine
               </Link>
             </li>
-            <li class="nav-item">
-              <Link class="nav-link" to="/products">
+            <li className="nav-item">
+              <Link className="nav-link" to="/products">
                 Product
               </Link>
             </li>
 
             {/* <!-- Dropdown --> */}
-            <li class="nav-item dropdown">
+            <li className="nav-item dropdown">
               <Dropdown />
             </li>
           </ul>
