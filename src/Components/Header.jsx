@@ -1,4 +1,5 @@
 import React, { Component, Fragment } from "react";
+import SearchBar from "./utils/searchBar";
 import logo from "../images/logo.png";
 
 class Header extends Component {
@@ -75,17 +76,7 @@ class Header extends Component {
                 </li>
               </ul>
               {/* <!-- Links --> */}
-
-              <form class="form-inline">
-                <div class="md-form my-0">
-                  <input
-                    class="form-control mr-sm-2"
-                    type="text"
-                    placeholder="Search"
-                    aria-label="Search"
-                  />
-                </div>
-              </form>
+              <SearchBar />
             </div>
             {/* <!-- Collapsible content --> */}
           </div>
