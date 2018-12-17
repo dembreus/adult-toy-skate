@@ -2,6 +2,7 @@ import React from "react";
 import CardIMG from "./cardIMG";
 import CardText from "./cardText";
 import CardDate from "./cardDate";
+import Video from "../video";
 import { MDBIcon } from "mdbreact";
 
 const featuredContent = ({ article }) => {

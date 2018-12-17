@@ -25,7 +25,13 @@ const relatedContent = ({ articles }) => {
         date="24/03/2018"
         text="Soluta nobis est eligendi optio cumque nihil impedit quo minus"
       />
-      <div className="mb-4">
+
+      <RelatedCard
+        image="https://mdbootstrap.com/img/Photos/Others/img%20(27).jpg"
+        date="23/02/2018"
+        text="  Duis aute irure dolor in reprehenderit in voluptate"
+      />
+      {/* <div className="mb-4">
         <MDBRow>
           <MDBCol md="3">
             <MDBView hover rounded className="z-depth-1-half mb-4">
@@ -53,7 +59,7 @@ const relatedContent = ({ articles }) => {
             </div>
           </MDBCol>
         </MDBRow>
-      </div>
+      </div> */}
     </Fragment>
   );
 };
