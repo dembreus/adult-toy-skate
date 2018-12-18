@@ -17,7 +17,7 @@ class App extends Component {
         {/* Main layout */}
         <main className="mt-5">
           <Switch>
-            <Route path="products" component={Products} />
+            <Route path="/products" component={Products} />
             <Route path="/magazine" component={Magazine} />
             <Route exact path="/" component={Home} />
           </Switch>
