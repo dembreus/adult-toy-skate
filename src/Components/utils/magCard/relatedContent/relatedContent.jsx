@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
-import { MDBRow, MDBCol, MDBMask, MDBIcon, MDBView } from "mdbreact";
-import CardIMG from "./../cardIMG";
-import CardDate from "../cardDate";
+// import { MDBRow, MDBCol, MDBMask, MDBIcon, MDBView } from "mdbreact";
+// import CardIMG from "./../cardIMG";
+// import CardDate from "../cardDate";
 import RelatedCard from "./relatedCard";
 
 const relatedContent = ({ articles }) => {

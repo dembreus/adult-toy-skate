@@ -7,7 +7,6 @@ import {
   NavLink,
   NavbarToggler,
   Collapse,
-  FormInline,
   Dropdown,
   DropdownToggle,
   DropdownMenu,

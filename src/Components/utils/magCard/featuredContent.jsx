@@ -1,5 +1,4 @@
 import React from "react";
-import CardIMG from "./cardIMG";
 import CardText from "./cardText";
 import CardDate from "./cardDate";
 import Video from "../video";
